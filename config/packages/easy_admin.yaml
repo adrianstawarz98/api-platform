@@ -1,4 +1,30 @@
 easy_admin:
+  site_name: 'Best offers for products'
   entities:
-    - App/Entity/Product
-    - App/Entity/Offer
+    Product:
+      class: App\Entity\Product
+      list:
+        title: "Products list"
+        fields:
+          - { property: 'name' }
+          - { property: 'image', type: 'image', base_path: '%app.path.product_images%' }
+
+      form:
+        fields:
+          - { property: 'name'}
+          - { property: 'description' }
+          - { property: 'imageFile', type: 'vich_image' }
+
+    Offer:
+      class: App\Entity\Offer
+      list:
+        title: "Offers list"
+        fields: ['url','price','priceCurrency']
+
+  design:
+    menu:
+      - Product
+      - Offer
+      - { label: 'Logout', url: '/logout' }
+
+

@@ -66,7 +66,7 @@ class Offer
         $this->url = $url;
     }
 
-    public function getUrl(): string
+    public function getUrl(): ?string
     {
         return $this->url;
     }
@@ -92,8 +92,9 @@ class Offer
         $this->priceCurrency = $priceCurrency;
     }
 
-    public function getPriceCurrency(): string
+    public function getPriceCurrency(): ?string
     {
         return $this->priceCurrency;
     }
 }
+
