@@ -65,6 +65,7 @@ class Offer
      * @ORM\ManyToOne(targetEntity="App\Entity\Product", inversedBy="offers")
      * @ApiProperty(attributes={"fetchEager": false})
      * @Groups({"write"})
+     * @ApiProperty(attributes={"fetchEager":false})
      */
     private $product;
 

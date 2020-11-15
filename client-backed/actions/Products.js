@@ -1,18 +1,24 @@
-import {baseURL} from "../src/config.js";
+import {baseURL} from '../src/config';
 
 export class Products {
-    constructor() {
-        axios.get(baseURL + '/api/products?pagination=false').then(response => {
-            //console.log(response.data['hydra:member']);
-            response.data['hydra:member'].forEach(product => {
-                this.addOptionElement(product.name,product.id)
+
+    constructor()
+    {
+        axios.get(baseURL + '/api/products?pagination=false')
+            .then((response) => {
+                // console.log(response.data['hydra:member']);
+                response.data['hydra:member'].forEach(product => {
+                    this.addOptionElement(product.name, product.id)
+                });
             })
-        })
-            .catch(function (error){
-                console.log(error)
-            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            });
+
     }
-    addOptionElement(text,value)
+
+    addOptionElement(text, value)
     {
         let option = document.createElement("option");
         option.text = text;
@@ -21,3 +27,4 @@ export class Products {
         select.appendChild(option);
     }
 }
+
