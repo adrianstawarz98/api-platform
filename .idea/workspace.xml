@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff7273b-e0e7-4537-9423-9d7ca686621c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/libraries/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/libraries/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/getData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,14 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,12 +171,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jhgVDP58jcCbWss54a1rzNainH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -182,6 +199,9 @@
       <workItem from="1604264841318" duration="537000" />
       <workItem from="1604265404140" duration="2080000" />
       <workItem from="1604305892748" duration="17089000" />
+      <workItem from="1604948109233" duration="45000" />
+      <workItem from="1604948163218" duration="728000" />
+      <workItem from="1605435985075" duration="4543000" />
     </task>
     <servers />
   </component>
@@ -205,14 +225,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="804" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604264090627" />
-    <state x="368" y="0" key="SettingsEditor" timestamp="1604265389414">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="414" y="0" key="SettingsEditor" timestamp="1605442401283">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604265389414" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604334427520">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="414" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605442401283" />
+    <state x="772" y="55" width="756" height="768" key="search.everywhere.popup" timestamp="1605443897656">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604334427520" />
+    <state x="772" y="55" width="756" height="768" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605443897656" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
