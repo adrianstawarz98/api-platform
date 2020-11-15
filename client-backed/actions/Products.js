@@ -1,4 +1,4 @@
-import {baseURL} from '../src/config';
+import {baseURL} from '../src/config.js';
 
 export class Products {
 

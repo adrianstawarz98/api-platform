@@ -1,5 +1,7 @@
 import {Products} from "./actions/Products.js";
 import { AddOffer} from "./actions/Offer/AddOffer.js";
+import {DeleteOffer} from "./actions/Offer/DeleteOffer.js";
+import {GetOffers} from "./actions/Offer/GetOffers.js";
 
 new Products
 let addOffer = document.getElementById("add-offer")
@@ -12,4 +14,12 @@ addOffer.addEventListener("click", ()=>{
     let Offer = new AddOffer();
     Offer.AddOffer(url.value,parseFloat(price.value), currency.value, product_id);
 
+})
+new GetOffers()
+let deleteOffer = document.getElementById("delete-offer-button")
+deleteOffer.addEventListener("click", () => {
+    let offer = document.getElementById("delete-offer")
+    let offer_id = offer.options[offer.selectedIndex].value;
+    let deleteOffer = new DeleteOffer();
+    deleteOffer.DeleteOffer(offer_id)
 })
