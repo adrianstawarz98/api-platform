@@ -11,5 +11,6 @@ api:
   controller: App\Controller\ApiController::api
 
 check_path:
-  path: /authentication_path
-  methods: [POST]
+  path:     /authentication_token
+  methods:  [POST]
+
